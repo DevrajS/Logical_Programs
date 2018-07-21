@@ -26,10 +26,10 @@ int lcm(int num1,int num2)
 
 int main(int argc, char const *argv[])
 {
-	int lcm,num1,num2;
+	int num1,num2,result;
 	printf("Enter number");
-	scanf("%d %d",num1,num2);
+	scanf("%d %d",&num1,&num2);
     result=lcm(num1,num2);
-    printf("Lcm = %d \n",lcm);
+    printf("Lcm = %d \n",result);
 	return 0;
 }
